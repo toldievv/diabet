@@ -122,7 +122,7 @@ def main():
     processed_df = prepare_features(df.copy())
     
     # Prepare data for modeling
-    categorical_cols = ['gender', 'ethnicity', 'education_level', 'employment_status', 
+    categorical_cols = ['gender', 'ethnicity', 'education_level', 'income_level', 'employment_status',
                        'smoking_status', 'bmi_category', 'age_group']
     
     # Create dummy variables
